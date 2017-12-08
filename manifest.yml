@@ -1,0 +1,8 @@
+---
+health-check-type: process
+applications:
+- name: dev-api-meteor-usuarios
+  command: npm start
+  path: .
+  memory: 512M
+  instances: 1
