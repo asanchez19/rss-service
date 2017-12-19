@@ -1,29 +1,24 @@
-# NodejsStartedKit
-Express + MongoDB
+# Demo-kactus-meetup
+> Developer:
+> Ing. Alejandro Sánchez.
+2017-10-28 
+Demo: https://rss-to-json-format.herokuapp.com/?rss=https://as.com/rss/tags/ultimas_noticias.xml
 
-## Pre-requisitos
 
-- Es necesario utilizar la versión de Node.js v7+ (preferiblemente 8).
-- Instalar [Yarn](https://yarnpkg.com/lang/en/docs/install/)
-- Instalar e iniciar MongoDB (para desarrollo local).
+## Pre- requirements
 
-## Proceso de Build
+- Node.js V.8.5.0
+- Run in terminal:
+ - npm install
+ - npm start
 
-```
-# instalar dependencias
-yarn
+## Description
 
-# Iniciar el servidor (http://127.0.0.1:3000)
-npm start
+This tool gonna help you  to convert from rss format to JSON format, it is useful because most of the modern frameworks go better with rest APIs in JSON format.
 
-# Se puede utilizar nodemon para recargar los cambios automaticamente
-npm install -g nodemon
-nodemon --exec npm start
+## Routes and params
 
-# correr pruebas
-npm test
-```
+This repo only has a single route: 
+- https://rss-to-json-format.herokuapp.com/?rss=https://as.com/rss/tags/ultimas_noticias.xml
 
-## Correr
-
-`npm start`
+The query param: **rss**  just recieve a rss url and that's it. 
