@@ -1,7 +1,6 @@
 const { HTTP } = require('..');
 const { connectToMongo } = require('../src/services/mongodb');
 const config = require('../config');
-const serverConfig = require('../src/config');
 
 
 (async () => {
