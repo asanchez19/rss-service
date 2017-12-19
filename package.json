@@ -1,7 +1,7 @@
 {
   "name": "rss-to-json",
   "version": "1.0.0",
-  "description": "NodejsStartedKit",
+  "description": "rss-to-json",
   "main": "./src/index.js",
   "engines": {
     "node": "8.5.0"
