@@ -1,10 +1,10 @@
 {
-  "name": "NodejsStartedKit",
+  "name": "rss-to-json",
   "version": "1.0.0",
   "description": "NodejsStartedKit",
   "main": "./src/index.js",
   "engines": {
-    "node": "8.4.0"
+    "node": "8.5.0"
   },
   "config": {
     "env": "development",
@@ -35,7 +35,7 @@
     "cuid": "^1.3.8",
     "dotenv": "^4.0.0",
     "express": "^4.14.0",
-    "feedparser": "^2.2.4",
+    "feedparser": "^2.2.7",
     "generate-password": "^1.3.0",
     "helmet": "^3.8.1",
     "jwt-simple": "^0.5.1",
