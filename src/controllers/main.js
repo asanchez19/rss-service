@@ -1,5 +1,5 @@
 var request = require('request');
-var FeedParser = require('FeedParser');
+var FeedParser = require('feedparser');
 /*
 * En caso de utilizar algún ORM importar modelos aqui
 */
