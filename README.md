@@ -1,8 +1,7 @@
-# Demo-kactus-meetup
-> Developer:
+# Rss-to-JSON-format
 > Ing. Alejandro Sánchez.
-2017-10-28 
-Demo: https://rss-to-json-format.herokuapp.com/?rss=https://as.com/rss/tags/ultimas_noticias.xml
+
+- Demo: https://rss-to-json-format.herokuapp.com/?rss=https://as.com/rss/tags/ultimas_noticias.xml
 
 
 ## Pre- requirements
