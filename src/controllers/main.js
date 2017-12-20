@@ -23,7 +23,6 @@ const rssReader = async (req, res, next) => {
   });
 
   req.on('response', function (res) {
-    console.log("hola")
     var stream = this; // `this` is `req`, which is a stream
 
     if (res.statusCode !== 200) {
@@ -39,7 +38,7 @@ const rssReader = async (req, res, next) => {
     // always handle errors
   });
   feedparser.on('end', function () {
-    res.status(200).send(result);
+    res.status(200).send({data:result});
     // always handle errors
   });
   //res.status(200).send({ data: result })
