@@ -38,7 +38,7 @@ const rssReader = async (req, res, next) => {
     // always handle errors
   });
   feedparser.on('end', function () {
-    res.status(200).send({data:result});
+    res.status(200).send({ result });
     // always handle errors
   });
   //res.status(200).send({ data: result })
